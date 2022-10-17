@@ -1,4 +1,4 @@
-if(CC_INSTALL_SENSORS_ANALYTICS_SDK)
+if(CC_INSTALL_GMP)
 	__install_directory_specif(${CMAKE_CURRENT_SOURCE_DIR}/include/ gmp)
 	
 	set(LIBS)
